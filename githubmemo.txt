@@ -1,0 +1,49 @@
+/////////////////////////////////JE VEUT CREER UN NOUVEAU REPO ET ENVOYER MON TRAVAIL DESSUS
+1 : sur github creer un repo ensuite nomme et normalement tu as une clé ssh générée qui ressemble à ça git@github.com:hugochoquet/Reset-CSS.git
+2 : ouvre ton terminal depuis le dossier que tu veut envoyer 
+tape ensuite:
+
+git init                                                            
+git add .                                                           
+git commit -m "nomdetasauvegarde"                                   
+git remote add origin git@github.com:hugochoquet/Reset-CSS.git
+git push -u origin master 
+
+
+
+
+
+
+
+
+
+/////////////////////////////////JE VEUT TRAVAILLER SUR UN REPO MAIS JE NE VEUT PAS FAIRE DE CASSE SUR LE REPO ORIGINEL DONC JE CREER UNE BRANCHE
+1 : sur github copie la clé ssh du repo en question
+2 : ouvre ton terminal 
+tape ensuite:
+
+git clone git@github.com:hugochoquet/Reset-CSS.git
+git branch -a                         (permet de lister les branches et voir sur laquelle tu te trouves)
+git checkout -b branche1              (creer ta branche et te met directement dessus choisis le nom que tu veut ici branche1)
+git add .                                                           
+git commit -m "nomdetasauvegarde"
+git push -u origin branche1
+
+
+
+
+
+
+
+
+
+/////////////////////////////////JE VEUT CHANGER DE NOM DE BRANCHE
+git checkout nom-de-votre-branch 
+git branch -m ancien-nom-votre-branche nouveau-nom-de-branch 
+git push origin :ancien-nom-de-votre-branche nouveau-nom-de-branch
+
+
+
+
+create a cutest animal totem ever 
+snipet
